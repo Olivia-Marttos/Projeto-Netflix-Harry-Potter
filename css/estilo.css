@@ -1,0 +1,125 @@
+body {
+  background-color:#3D0E0E ;
+}
+
+h1{
+  color:#73100E ;
+}
+
+.cor1{
+  background-color: #73100E;
+}
+.cor2{
+  background-color: #A38A70;
+}
+.efeito:hover{
+  cursor: pointer;
+  transition-duration: 1s;
+  transform: scale(1.2, 1.2);
+}
+.space-1{
+margin-top: 100px;
+margin-bottom: 50px;
+
+}
+.tamanho-letra{
+  font-size: 70px;
+}
+.space{
+  padding-left: 300px;
+  padding-right:300px;
+}
+.back-input{
+  font-weight: bold;
+  color: white;
+  background-color: #73100E;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  background:#3D0E0E;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.circulo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#73100E ;
+  clip-path: circle(50% at bottom right);
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.historia1{
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.historia1 .texto{
+  position: relative;
+  max-width: 600px;
+  margin-right: 20px;
+
+}
+.historia1 .texto h2{
+  color: #A38A70;
+  font-size: 3em;
+  margin-bottom: 10px;
+  line-height: 2.5cm;
+  font-weight: 700;
+}
+.historia1 .texto h2 span{
+  font-size: 3.5cm;
+  color: #73100E;
+
+}
+.historia1 .texto p{
+  color: white;
+}
+ .historia1 .texto a{
+  display: inline-block;
+  margin-top: 50px;
+  padding: 10px 25px;
+  background-color: #73100E;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 40px;
+  transition: 0.3s ease-in-out;
+ }
+ .historia1 .texto a:hover{
+  transform: translate(10px);
+ }
+ .boximg{
+  position: absolute;
+  right: 50px;
+  bottom: 60px;
+ }
+ .boximg img{
+  width: 200px;
+ }
+ .boximg .img1{
+  transform: rotate(-15deg);
+ }
+ 
